@@ -1,0 +1,5 @@
+#find second largest & second smallest element in array
+
+def largeandsmall (arr):
+    arr.sort()
+    return[arr[n-1],arr[1]]
